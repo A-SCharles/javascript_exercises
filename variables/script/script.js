@@ -19,18 +19,18 @@
 //     live: 'link'
 // }
 
-const project = {
-    title: 'Project - 1',
-    imgURL: 'link',
-    description: 'lorem ipsum',
-    technologies: 'html, css',
- links: {
-     github: 'link',
-     live: 'link'
-    }
-}
+// const project = {
+//     title: 'Project - 1',
+//     imgURL: 'link',
+//     description: 'lorem ipsum',
+//     technologies: 'html, css',
+//  links: {
+//      github: 'link',
+//      live: 'link'
+//     }
+// }
 
-console.log(project)
+// console.log(project)
 
 const numbers = [1,2,3,4,5,6,7]
 
