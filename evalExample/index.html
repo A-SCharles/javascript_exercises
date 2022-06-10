@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Eval Example</title>
+</head>
+<body>
+    <form>
+        <div>
+            <input type="number" id="numb1" placeholder="First Operand">
+        </div>
+        <div>
+            <label>
+                <strong>Operator</strong>
+            </label>
+            <select name="operator" id="operator">
+                <option value="+">+</option>
+                <option value="-">-</option>
+                <option value="/">/</option>
+                <option value="*">*</option>
+            </select>
+        </div>
+        <div>
+            <input type="number" id="numb2" placeholder="Second Operand">
+        </div>
+        <div>
+            <label id="output"></label>
+        </div>
+        <button type="button" id="result">Result</button>
+    </form>
+    <script src="./script/script.js"></script>
+</body>
+</html>
