@@ -1,0 +1,37 @@
+.values_list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    float: left;
+}
+
+.values_list li {
+    cursor: pointer;
+    display: block;
+    /* width: 40px; */
+    /* height: 48px; */
+    float: left;
+    margin-top: 5px;
+    margin: auto;
+    background-image: url(../img/card_icons.png);
+    background-size: 378px;
+    background-position-y: -48px;
+    transition: all .25s ease-out;
+}
+
+i {
+    font-size: 30px;
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+i:hover {
+    color: green;
+}
+
+.card img {
+    min-width: 100px;
+    aspect-ratio: 1;
+}
