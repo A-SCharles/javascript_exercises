@@ -1,3 +1,9 @@
+.horizontal_center {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
 .values_list {
     list-style-type: none;
     margin: 0;
