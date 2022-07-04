@@ -154,3 +154,10 @@ let person = {
 let prs =  structuredClone(person);
 document.write(prs.name + " " +  prs.age);
 
+        // Creating an array out of a string
+        let str = 'joel';
+        let chrs = str.split('');
+        console.log(chrs);
+
+        const a = [...'Joel'];
+        console.log(a);
