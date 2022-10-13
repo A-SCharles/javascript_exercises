@@ -8,7 +8,7 @@ console.log(bestFriends[bestFriends.length-1]);
 let middleIndex = Math.floor(bestFriends.length / 2) -1;
 console.log(middleIndex);
 console.log(bestFriends[middleIndex]); */
-
+/*
 let marks = 86;
 // >, >= , <, <=
 // &&, ||, !
@@ -35,7 +35,7 @@ switch(true) {
     default:
         console.log("Out of range");
 }
-
+*/
 // var gradeOut = 50;
 // //here's the same thing using switch(true). Requires var gradeOut (is currently at top of page
 // switch(true) {
@@ -52,3 +52,61 @@ switch(true) {
 //         console.log(gradeOut);
 //         break;
 //     }
+
+// console.log(5=='5');
+
+// function gfg() {  
+//     let PMarks = 40 
+//     let result = (PMarks > 39)? 
+//         "Pass":"Fail"; 
+  
+//     document.write(result); 
+//     }  
+//     gfg(); 
+
+// let result = (10 > 0) ? true : false;
+
+
+// function Test()
+
+//   {  let marks = 95;
+
+//   let result = (marks < 40) ? "Unsatisfactory" : (marks < 60) ? "Average" : (marks < 80) ? "Good" : "Excellent" ;
+
+//     console.log(result);
+
+// }
+
+// Test();
+
+
+// var result = (firstName === "John") ? "Hello John!" : "You're not John!";
+
+// console.log(result);
+
+// let z=6, k=9;
+
+// result=z+k;
+
+// k=result-k;
+
+// z=result-k;
+// console.log(z, k);
+
+// function height()
+// {
+//    let height=123.56;
+//      let type =(height>=190)?"Taller":"Little short";
+//     return type;
+// }
+
+// height();
+
+// let mark=5;
+
+// let result=mark>5 ? "weak":"strong";
+// console.log(result)
+
+// var a = 1;
+let a = 5
+ console.log(++a)

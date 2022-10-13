@@ -1,5 +1,5 @@
+let gender = document.querySelectorAll('input[name="gender"]');
 function calculate() {
-  let gender = document.querySelectorAll('input[name="gender"]');
   let selectedGender;
 
   //const display = document.getElementById('display')
@@ -8,7 +8,7 @@ function calculate() {
     if (radioButton.checked) {
       selectedGender = radioButton.value;
       break;
-    }
+  }
   }
   let age = document.getElementById("age").value;
   let weight = document.getElementById("weight").value;
@@ -36,3 +36,14 @@ function calculate() {
   <p>You are: ${category}</p>
 `;
 }
+
+const btnClear = document.getElementById('clear');
+btnClear.addEventListener('click', () => {
+  // for (radioButton of gender)
+  document.getElementById('age').value = ''
+  document.getElementById('Male').checked = false
+  document.getElementById('Female').checked = false
+  document.getElementById('weight').value = ''
+  document.getElementById('height').value = ''
+  document.getElementById('display').innerHTML = '';
+})

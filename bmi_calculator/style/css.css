@@ -1,6 +1,16 @@
-#display {
+.row {
+    min-height: 95vh;
+}
 
- min-height: 50px;
- min-width: 300px;
- border: 2px solid black;   
+#Male, #Female {
+border: 2px solid white;
+}
+
+#Male:hover, #Female:hover {
+    color: white;
+    background-color: blue !important;
+}
+
+#display{ 
+    min-height: 140px;
 }
